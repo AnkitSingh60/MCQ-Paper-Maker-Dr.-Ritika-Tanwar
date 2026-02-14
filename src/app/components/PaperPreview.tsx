@@ -22,7 +22,7 @@ const PaperPreview = forwardRef<HTMLDivElement, { questions: Question[] }>(
             <div>
               <Image
               className="animate-pulse"
-                src="/emptyStateDr.RitikaTanwar.svg"
+                src="https://flowbite-react.com/images/components/timeline-dark.svg"
                 alt="img"
                 width={250}
                 height={250}
