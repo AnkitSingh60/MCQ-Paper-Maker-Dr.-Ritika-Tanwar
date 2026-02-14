@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@media print {
+  body {
+    background: white;
+  }
+
+ textarea,
+  button,
+  footer,
+  .no-print {
+    display: none;
+  }
+
+
+  main {
+    background: white;
+    padding: 0;
+  }
+
+  .paper-container {
+    margin: 0;
+    box-shadow: none;
+  }
+}
